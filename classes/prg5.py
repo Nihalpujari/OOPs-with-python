@@ -5,7 +5,7 @@ class Employee:
   def set_salary(self, new_salary):
     self.salary = new_salary 
 
-  # Add a give_raise() method with amount as an argument
+ 
   def give_raise(self, amount):
     self.salary = self.salary + amount
 
